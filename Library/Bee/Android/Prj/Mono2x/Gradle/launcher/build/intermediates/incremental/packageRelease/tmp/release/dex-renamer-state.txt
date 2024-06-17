@@ -1,4 +1,4 @@
-#Mon Jun 17 22:06:53 ICT 2024
+#Mon Jun 17 22:30:49 ICT 2024
 base.0=C\:\\Users\\Dan Koyuki\\ARabiCalligraph\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

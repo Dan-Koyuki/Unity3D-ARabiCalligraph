@@ -573,7 +573,7 @@ ScriptsOnlyBuild:
     className: TestResultRendererCallback
   - hash:
       serializedVersion: 2
-      Hash: 94355a542095711d541676a4c742840f
+      Hash: 66ac2c483f0c238f6a483cf2aef53390
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ARScanDraw
@@ -1296,4 +1296,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Main Menu.unity
   - Assets/Scenes/StageSelection.unity
   - Assets/Scenes/ARScanDraw.unity
-  playerPath: C:/Users/Dan Koyuki/Downloads/TestAPK.apk
+  playerPath: C:/Users/Dan Koyuki/Downloads/ARabiCalligraph.apk

@@ -12,6 +12,16 @@ public class ARScanDraw : MonoBehaviour
     public Image S1K3;
     public Image S1K4;
     public Image S1K5;
+    public Image S2K1;
+    public Image S2K2;
+    public Image S2K3;
+    public Image S2K4;
+    public Image S2K5;
+    public Image S3K1;
+    public Image S3K2;
+    public Image S3K3;
+    public Image S3K4;
+    public Image S3K5;
 
     void Start()
     {
@@ -21,7 +31,17 @@ public class ARScanDraw : MonoBehaviour
         S1K3.gameObject.SetActive(false);
         S1K4.gameObject.SetActive(false);
         S1K5.gameObject.SetActive(false);
-        
+        S2K1.gameObject.SetActive(false);
+        S2K2.gameObject.SetActive(false);
+        S2K3.gameObject.SetActive(false);
+        S2K4.gameObject.SetActive(false);
+        S2K5.gameObject.SetActive(false);
+        S3K1.gameObject.SetActive(false);
+        S3K2.gameObject.SetActive(false);
+        S3K3.gameObject.SetActive(false);
+        S3K4.gameObject.SetActive(false);
+        S3K5.gameObject.SetActive(false);
+
         myCam = new WebCamTexture();
 
         // Set a higher resolution if available
@@ -107,6 +127,36 @@ public class ARScanDraw : MonoBehaviour
                 break;
             case "S1K5":
                 S1K5.gameObject.SetActive(true);
+                break;
+            case "S2K1":
+                S2K1.gameObject.SetActive(true);
+                break;
+            case "S2K2":
+                S2K2.gameObject.SetActive(true);
+                break;
+            case "S2K3":
+                S2K3.gameObject.SetActive(true);
+                break;
+            case "S2K4":
+                S2K4.gameObject.SetActive(true);
+                break;
+            case "S2K5":
+                S2K5.gameObject.SetActive(true);
+                break;
+            case "S3K1":
+                S3K1.gameObject.SetActive(true);
+                break;
+            case "S3K2":
+                S3K2.gameObject.SetActive(true);
+                break;
+            case "S3K3":
+                S3K3.gameObject.SetActive(true);
+                break;
+            case "S3K4":
+                S3K4.gameObject.SetActive(true);
+                break;
+            case "S3K5":
+                S3K5.gameObject.SetActive(true);
                 break;
             default:
                 Debug.LogWarning("Unknown choice: " + choice);
