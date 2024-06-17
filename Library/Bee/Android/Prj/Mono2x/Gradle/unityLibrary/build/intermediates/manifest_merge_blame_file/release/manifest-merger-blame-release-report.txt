@@ -1,0 +1,141 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player" >
+5
+6    <uses-sdk
+7        android:minSdkVersion="22"
+7-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+8        android:targetSdkVersion="32" />
+8-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+9
+10    <uses-feature android:glEsVersion="0x00030000" />
+10-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:3-52
+10-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:17-49
+11    <uses-feature
+11-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:3-91
+12        android:name="android.hardware.vulkan.version"
+12-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:17-63
+13        android:required="false" />
+13-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:64-88
+14
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:3-63
+15-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:20-60
+16
+17    <uses-feature
+17-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:3-83
+18        android:name="android.hardware.camera"
+18-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:17-55
+19        android:required="false" />
+19-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:56-80
+20    <uses-feature
+20-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:3-93
+21        android:name="android.hardware.camera.autofocus"
+21-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:17-65
+22        android:required="false" />
+22-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:66-90
+23    <uses-feature
+23-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:3-89
+24        android:name="android.hardware.camera.front"
+24-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:17-61
+25        android:required="false" />
+25-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:62-86
+26    <uses-feature
+26-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:3-88
+27        android:name="android.hardware.touchscreen"
+27-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:17-60
+28        android:required="false" />
+28-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:61-85
+29    <uses-feature
+29-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:3-99
+30        android:name="android.hardware.touchscreen.multitouch"
+30-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:17-71
+31        android:required="false" />
+31-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:72-96
+32    <uses-feature
+32-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:3-108
+33        android:name="android.hardware.touchscreen.multitouch.distinct"
+33-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:17-80
+34        android:required="false" />
+34-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:81-105
+35
+36    <application android:extractNativeLibs="true" >
+36-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-17:17
+36-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:16-48
+37        <activity
+37-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:5-11:16
+38            android:name="com.unity3d.player.UnityPlayerActivity"
+38-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:15-68
+39            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+39-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:180-361
+40            android:exported="true"
+40-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:433-456
+41            android:hardwareAccelerated="false"
+41-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:397-432
+42            android:launchMode="singleTask"
+42-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:148-179
+43            android:resizeableActivity="false"
+43-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:362-396
+44            android:screenOrientation="fullUser"
+44-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:111-147
+45            android:theme="@style/UnityThemeSelector" >
+45-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:69-110
+46            <intent-filter>
+46-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:7-8:23
+47                <action android:name="android.intent.action.MAIN" />
+47-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:9-61
+47-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:17-58
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:9-69
+49-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:19-66
+50            </intent-filter>
+51
+52            <meta-data
+52-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:7-82
+53                android:name="unityplayer.UnityActivity"
+53-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:18-58
+54                android:value="true" />
+54-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:59-79
+55            <meta-data
+55-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:7-78
+56                android:name="android.notch_support"
+56-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:18-54
+57                android:value="true" />
+57-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:55-75
+58        </activity>
+59
+60        <meta-data
+60-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:5-69
+61            android:name="unity.splash-mode"
+61-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:16-48
+62            android:value="0" />
+62-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:49-66
+63        <meta-data
+63-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:5-74
+64            android:name="unity.splash-enable"
+64-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:16-50
+65            android:value="True" />
+65-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:51-71
+66        <meta-data
+66-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-78
+67            android:name="unity.launch-fullscreen"
+67-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-54
+68            android:value="True" />
+68-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:55-75
+69        <meta-data
+69-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-81
+70            android:name="notch.config"
+70-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-43
+71            android:value="portrait|landscape" />
+71-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:44-78
+72        <meta-data
+72-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-84
+73            android:name="unity.auto-report-fully-drawn"
+73-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:16-60
+74            android:value="true" />
+74-->C:\Users\Dan Koyuki\ARabiCalligraph\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:61-81
+75    </application>
+76
+77</manifest>

@@ -1,0 +1,18 @@
+com/unity/androidnotifications/UnityNotificationBackgroundThread.java
+ com.unity.androidnotifications.UnityNotificationBackgroundThread
+ com.unity.androidnotifications.UnityNotificationBackgroundThread$1
+ com.unity.androidnotifications.UnityNotificationBackgroundThread$CancelAllNotificationsTask
+ com.unity.androidnotifications.UnityNotificationBackgroundThread$CancelNotificationTask
+ com.unity.androidnotifications.UnityNotificationBackgroundThread$HousekeepingTask
+ com.unity.androidnotifications.UnityNotificationBackgroundThread$ScheduleNotificationTask
+ com.unity.androidnotifications.UnityNotificationBackgroundThread$Task
+com/unity/androidnotifications/UnityNotificationUtilities.java
+ com.unity.androidnotifications.UnityNotificationUtilities
+com/unity/androidnotifications/UnityNotificationRestartReceiver.java
+ com.unity.androidnotifications.UnityNotificationRestartReceiver
+com/unity/androidnotifications/UnityNotificationManager.java
+ com.unity.androidnotifications.NotificationCallback
+ com.unity.androidnotifications.NotificationChannelWrapper
+ com.unity.androidnotifications.UnityNotificationManager
+com/unity/androidnotifications/BuildConfig.java
+ com.unity.androidnotifications.BuildConfig
