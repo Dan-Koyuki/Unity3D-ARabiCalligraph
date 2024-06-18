@@ -109,6 +109,6 @@ webgl-build/
 
 # Packages folder can be ignored because of the presence of manifest.json file
 # But it can be included if you are modifying your own package
-Packages/*
+Pcakages/
 !Packages/manifest.json
 !Packages/packages-lock.json
